@@ -9,21 +9,11 @@ use Exceptions\InvalidPasswordException;
 use Exceptions\UserNotFoundException;
 require_once __DIR__ . "/presentation/header.php";
 
+include_once("Presentation/header.php");
+include_once("Presentation/menu.php");
+
 $error = "";
 ?>
-
-
-
-<!DOCTYPE html>
-<html lang="nl">
-
-<head>
-    <script src="./Design/js/loginslider.js" defer></script>
-    <meta charset="UTF-8">
-    <title>LOGIN: Videotheek voor werknemers</title>
-    <link rel="stylesheet" href="./Design/css/login.css">
-</head>
-<?php include_once("Presentation/header.php"); ?>
 
 <body>
     <?php

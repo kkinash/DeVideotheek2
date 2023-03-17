@@ -34,7 +34,7 @@
     
     else { ?>
         <li><a href="./login.php">Login</a></li>
-        <li> <a href="./register.php">Sing Up</a></li>
+        <li> <a href="./login.php">Sing Up</a></li>
  <?php  }?>
  </div>
 </div><div class="break">
