@@ -7,7 +7,7 @@
 	<div class="form-container sign-up-container">
 	<form action="?action=signup" method="POST">
 			<h1>Create Account</h1>
-			<span>use your @videotheek.be email for registration</span>
+			<span style="margin-bottom:10px;font-size:12px">use your @videotheek.be email for registration</span>
 			<input type="text" id="fname" name="fname" value="John" placeholder="First name"  />
 			<input type="text" id="lname" name="lname" value="Vick" placeholder="Last name" />
             <input type="email" id="email" name="email" value="1@videotheek.be" placeholder="Email"  required>
@@ -19,7 +19,7 @@
 	<div class="form-container sign-in-container">
     <form action="./login.php?action=process" method="POST">
 			<h1>Sign in</h1>
-			<span>to use your account</span>
+			<span style="margin-bottom:10px;font-size:12px">to use your work account</span>
 			<input type="email" placeholder="Email" name="username" required />
 			<input type="password" placeholder="Password" name="password" required />
 			<a href="fired.php">Forgot your password? You are fired!</a>
